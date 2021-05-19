@@ -1,0 +1,14 @@
+#difenca entre valores
+
+def difenca():
+    
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    d = int(input())
+    
+    diff = ((a*b)-(c*d))
+    
+    print("DIFERENCA =",diff)
+    
+difenca()
