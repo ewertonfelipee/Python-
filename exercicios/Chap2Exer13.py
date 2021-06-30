@@ -1,4 +1,4 @@
-# CHAPTER 2 EXERCISE NO. 12345
+# CHAPTER 2 EXERCISE NO. 13
 
 def exr_thirteen():
     
