@@ -18,7 +18,8 @@ def soma(maximum, *numbers):
         result += number
         numbers_sum.append(number)
 
+    print(numbers_sum)
 
     return result
 
-print(soma(10,2,3,4,5))
+print(soma(100,2,3,4,5,20,50,16,33))
