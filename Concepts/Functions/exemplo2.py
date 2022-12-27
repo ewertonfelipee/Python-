@@ -5,7 +5,7 @@
 
 # args_function(5, 6, 6.5, 'hi')
 
-def soma(maximum, *numbers):
+def soma(maximum: int, *numbers: float) -> float:
     result = 0
 
     numbers_sum = []
@@ -18,8 +18,8 @@ def soma(maximum, *numbers):
         result += number
         numbers_sum.append(number)
 
-    print(numbers_sum)
-
+    # print(numbers_sum)
     return result
 
-print(soma(100,2,3,4,5,20,50,16,33))
+summ = soma(100,2,3,4.9,5,20.5,50,16.3,33.7)
+print(f'O resultado é: {summ}')
