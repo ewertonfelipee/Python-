@@ -1,7 +1,7 @@
 
 class Dog:
 	
-	def __init__(self, name, age):
+	def __init__(self, name, age): # construtor
 		self.name = name
 		self.age = age
 					
@@ -15,7 +15,7 @@ mydog = Dog('Ozzy', 2)
 yourdog = Dog('Lucy', 3)
 
 print("my dog's name is " + mydog.name.title() + ".")
-print("my dog's is " + str(mydog.age) + "years old!")
+print("my dog's is " + str(mydog.age) + " years old!")
 
 mydog.sit()
 
