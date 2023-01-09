@@ -22,11 +22,11 @@ class Auto:
         Auto.total_locations += 1 # method atribute
         self.rented = True
         self.client_name = client_name
-        print(f'the car {self.manufacturer} {self.model} was rented by {self.client_name}')
+        print(f'the {self.manufacturer} {self.model} was rented by {self.client_name}')
 
     def return_auto(self):
         self.rented = False
-        print(f'the car {self.manufacturer} {self.model} was returned by {self.client_name}')
+        print(f'the {self.manufacturer} {self.model} was returned by {self.client_name}')
         #self.client_name = ""
 
     def generate_bill(self, number_toll, km_traveled): # método abstrato
