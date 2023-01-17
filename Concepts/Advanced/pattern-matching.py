@@ -1,5 +1,4 @@
 # PADRÕES LITERAIS
-
 genero = "G"
 
 match genero:
@@ -17,7 +16,6 @@ match age:
 
 
 # PADRÕES CORINGA (WILDCARD)
-
 genero = "A"
 
 match genero:
@@ -29,7 +27,6 @@ match genero:
         print("Gênero não encontrado")
 
 # PADRÕES DE SEQUÊNCIA e de CAPTURA(dar nome as variváveis)
-
 #notas = []
 #notas = [5]
 #notas = [5,8]
